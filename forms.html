@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms Practice</title>
+    </head>
+
+    <body>
+        <h1>Forms Practice</h1>
+
+        <form method="POST">
+            <p>First Name</p>
+            <input type="text" name="first_name">
+            <p>Last Name</p>
+            <input type="text" name="last_name">
+            <p>Enter your password</p>
+            <input type="password" name="user_password">
+            <br>
+            <input type="submit" name="Send">
+            <input type="reset">
+            <br>
+            <input type="button" onclick="alert('Hello World!')" value="Click me!">
+            <br>
+            <input type="radio" name="pet" value="cat">Cat<br>
+            <input type="radio" name="pet" value="dog">Dog<br>
+            <input type="checkbox" name="with_drinks" value="yes">Do you want drinks?<br>
+            <input type="checkbox" name="with_dessert" value="yes">Do you want dessert?<br>
+            <textarea name="comments" rows="5" cols="25" placeholder="Your comments"></textarea>
+            <br>
+            <select name="language">
+                <option value="english">English language</option>
+                <option value="japanese">Nihongo</option>
+            </select>
+        </form>
+    </body>
+</html>

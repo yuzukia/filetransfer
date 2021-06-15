@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(255, 195, 117);
+}
+
+#red {
+    color: cyan;
+}
+
+.big-text{
+    font-size: 48px;
+}
